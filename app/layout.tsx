@@ -8,8 +8,8 @@ const kanit = Kanit({
 });
  
 export const metadata: Metadata = {
-  title: "Manage Task App by NinniN SAU",
-  description: "เว็บแอปพลิเคชันสำหรับจัดการงานที่พัฒนาโดย NinniN SAU โดยใช้ Next.js, React และ TypeScript",
+  title: "Manage Task App by GuGolF SAU",
+  description: "เว็บแอปพลิเคชันสำหรับจัดการงานที่พัฒนาโดย GuGolF SAU โดยใช้ Next.js, React และ TypeScript",
   keywords: ["Manage Task App", "GuGolF SAU", "Next.js", "React", "TypeScript"],
   authors: [{ name: "GuGolF SAU", url: "https://github.com/GuGolF-SAU" }],
 };
