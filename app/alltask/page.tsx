@@ -130,7 +130,7 @@ export default function Page() {
                     {new Date(task.update_at).toISOString()}
                   </td>
                   <td className="border p-2 text-center">
-                    <Link className="text-green-500 mr-5" href="#">
+                    <Link className="text-green-500 mr-5" href={`/updatetask/${task.id}`}>
                       แก้ไข
                     </Link>
                     <button
