@@ -124,10 +124,10 @@ export default function Page() {
                     {task.is_completed == true ? "✅สำเร็จ" : "❌ไม่สำเร็จ"}
                   </td>
                   <td className="border p-2">
-                    {new Date(task.created_at).toISOString()}
+                    {new Date(task.created_at).toLocaleString()}
                   </td>
                   <td className="border p-2 text-center">
-                    {new Date(task.update_at).toISOString()}
+                    {new Date(task.update_at).toLocaleString()}
                   </td>
                   <td className="border p-2 text-center">
                     <Link className="text-green-500 mr-5" href={`/updatetask/${task.id}`}>
